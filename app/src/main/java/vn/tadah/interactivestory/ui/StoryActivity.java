@@ -39,6 +39,9 @@ public class StoryActivity extends AppCompatActivity {
         loadPage(0);
 
     }
+    public void sayHello(){
+        System.out.println("Hello World");
+    }
     private void loadPage(int choice){
         mCurrentPage = mStory.getPage(choice);
         Context mContext = getApplicationContext();
