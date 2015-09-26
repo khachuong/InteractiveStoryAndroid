@@ -36,10 +36,11 @@ public class StoryActivity extends AppCompatActivity {
         mTextView = (TextView)findViewById(R.id.storyTextView);
         mChoice1 = (Button)findViewById(R.id.choiceButton1);
         mChoice2 = (Button)findViewById(R.id.choiceButton2);
+        //default loading page
         loadPage(0);
 
     }
-    
+
     private void loadPage(int choice){
         mCurrentPage = mStory.getPage(choice);
         Context mContext = getApplicationContext();
