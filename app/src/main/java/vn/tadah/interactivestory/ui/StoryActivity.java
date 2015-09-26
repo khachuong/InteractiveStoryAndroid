@@ -39,7 +39,7 @@ public class StoryActivity extends AppCompatActivity {
         loadPage(0);
 
     }
-    
+
     private void loadPage(int choice){
         mCurrentPage = mStory.getPage(choice);
         Context mContext = getApplicationContext();
